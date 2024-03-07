@@ -6,16 +6,14 @@
     android:layout_height="match_parent"
     android:background="#000000"
     tools:context="MainActivity">
-    >
 
     <TextView
         android:id="@+id/speed"
         android:layout_width="249dp"
         android:layout_height="168dp"
         android:gravity="center"
-        android:text="153"
         android:textColor="#FFFFFF"
-        android:textSize="130sp"
+        android:textSize="140sp"
         app:layout_constraintBottom_toTopOf="@+id/arrow"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -42,7 +40,6 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:gravity="center"
-        android:text="Dystans:1000"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
